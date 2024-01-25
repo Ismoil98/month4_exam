@@ -56,12 +56,12 @@ button {
   background-color: #939878;
   position: relative;
 }
-.home .info_rekIcon {
+.home .info_rek .info_rekIcon {
   position: absolute;
   top: 5px;
   right: 5%;
 }
-.home .info_rekIcon :hover {
+.home .info_rek .info_rekIcon :hover {
   fill: red;
 }
 .home header {
@@ -888,4 +888,88 @@ button {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
+}
+.home .footer {
+  padding: 64px 10px;
+}
+.home .footer .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  flex-wrap: wrap;
+}
+.home .footer .top h4 {
+  margin-bottom: 16px;
+  color: #2A2C1F;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.home .footer .top a {
+  margin-bottom: 16px;
+  color: #2A2C1F;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  transition: all 0.4s ease;
+}
+.home .footer .top a:hover {
+  color: rgb(246, 60, 60);
+}
+.home .footer .top div .info_full {
+  margin-bottom: 15px;
+  color: #65665C;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.home .footer .top div form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.home .footer .top div form input {
+  width: 310px;
+  padding: 9px 192px 9px 56px;
+  color: #65665C;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  border-radius: 6px;
+  border: 1px solid #E7E8E3;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.home .footer .top div form button {
+  padding: 13px 28px;
+  border-radius: 6px;
+  border: 1px solid #CF6F49;
+  background: #CF6F49;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  transition: all 0.3s ease;
+}
+.home .footer .top div form button:hover {
+  color: #CF6F49;
+  background-color: #ffffff;
+}
+.home .footer .top div .priv {
+  color: #65665C;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
 }/*# sourceMappingURL=style.css.map */
