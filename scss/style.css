@@ -49,22 +49,29 @@ button {
   padding: 0 10px;
 }
 
-.home .info_rek {
-  margin-left: auto;
-  margin-right: auto;
+.home .info_wrapper {
   padding-top: 10px;
   padding-bottom: 9px;
   text-align: center;
   color: #ffffff;
   background-color: #939878;
+}
+.home .info_wrapper .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home .info_wrapper .info .info_rek {
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
 }
-.home .info_rek .info_rekIcon {
+.home .info_wrapper .info .info_rek .info_rekIcon {
   position: absolute;
   top: 5px;
   right: 5%;
 }
-.home .info_rek .info_rekIcon :hover {
+.home .info_wrapper .info .info_rek .info_rekIcon :hover {
   fill: red;
 }
 .home header {

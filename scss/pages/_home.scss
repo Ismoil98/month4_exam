@@ -1,22 +1,29 @@
 @use '../abstracts' as *;
 
 .home {
-    .info_rek {
-        margin-left: auto;
-        margin-right: auto;
+    .info_wrapper {
         padding-top: 10px;
         padding-bottom: 9px;
         text-align: center;
         color: #ffffff;
         background-color: #939878;
-        position: relative;
-        .info_rekIcon {
-            position: absolute;
-            top: 5px;
-            right: 5%;
-            :hover {
-                fill: red;
-            }
+        .info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .info_rek {
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                .info_rekIcon {
+                    position: absolute;
+                    top: 5px;
+                    right: 5%;
+                    :hover {
+                        fill: red;
+                    }
+                }
+        }
         }
     }
     
