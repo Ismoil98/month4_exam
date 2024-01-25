@@ -1008,4 +1008,12 @@ button {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 10%;
+}
+
+.dark {
+  background-color: black;
+}
+
+.dark * {
+  color: white !important;
 }/*# sourceMappingURL=style.css.map */
