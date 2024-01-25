@@ -1013,7 +1013,14 @@ button {
 .dark {
   background-color: black;
 }
+.dark a svg path {
+  fill: white;
+}
+.dark main .hiro_wrapper {
+  background-color: #000000;
+}
 
 .dark * {
   color: white !important;
+  transition: all 0.5s ease;
 }/*# sourceMappingURL=style.css.map */
