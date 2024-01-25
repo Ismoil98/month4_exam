@@ -725,4 +725,65 @@ button {
   background: #ffffff;
   color: #CF6F49;
   border: 2px solid #CF6F49;
+}
+.home main .customers {
+  padding: 160px 0;
+}
+.home main .customers h2 {
+  color: #2A2C1F;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.6px; /* 120% */
+}
+.home main .customers .info {
+  margin-top: 26px;
+  color: #65665C;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+.home main .customers ul {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.home main .customers ul li {
+  width: 32%;
+  padding: 33px;
+  border-radius: 16px;
+  border: 1px solid #E7E8E3;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  transition: all 0.5s ease;
+}
+.home main .customers ul li:hover {
+  background: rgb(245, 200, 200);
+  box-shadow: 0px 12px 14px 10px rgba(0, 0, 0, 0.08);
+}
+.home main .customers ul li img {
+  margin-bottom: 27px;
+}
+.home main .customers ul li p {
+  margin-bottom: 29px;
+  color: #2A2C1F;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+.home main .customers ul li div {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=style.css.map */
